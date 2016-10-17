@@ -1,0 +1,17 @@
+{
+  "name": "alexa",
+  "version": "1.0.0",
+  "description": "Alexa integration for Barclaycard",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Satyan Avatara",
+  "license": "MIT",
+  "dependencies": {
+    "alexa-app": "^2.3.2",
+    "dominos": "^2.0.1",
+    "lodash": "^4.15.0",
+    "moment": "^2.12.0"
+  }
+}

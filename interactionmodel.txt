@@ -1,0 +1,160 @@
+{
+  "intents": [
+    {
+      "intent": "RequestUber"
+    },
+    {
+      "intent": "WhichCard"
+    },
+    {
+      "intent":"FreezCard"
+    },
+    {
+      "intent" : "UnFreezeCard"
+    },
+    {
+      "intent" : "RequestStatement",
+      "slots": [
+        {
+          "name": "stmtmonth",
+          "type": "AMAZON.DATE"
+        }
+      ]
+    },
+    {
+      "intent":"whatsmyspendoutlook"
+    },
+    {
+      "intent": "WhatSMyBalance"
+    },
+    {
+      "intent":"RecentTransactions"
+    },
+    {
+      "intent": "RewardsBalance"
+    },
+    {
+      "intent": "CreditLimit"
+    },
+    {
+      "intent": "PleaseCallMe"
+    },
+    {
+      "intent": "WhenIsMyPaymentDue"
+    },
+    {
+      "intent": "HowMuchMoneyDidISpendThisMonth",
+      "slots": [
+        {
+          "name": "dateperiodslot",
+          "type": "AMAZON.DURATION"
+        }
+      ]
+    },
+    {
+      "intent": "TravelNotify"
+    },
+    {
+      "intent": "AMAZON.StopIntent",
+      "slots": []
+    },
+    {
+      "intent": "AMAZON.CancelIntent",
+      "slots": []
+
+    },
+    {
+      "intent": "AMAZON.HelpIntent",
+      "slots": []
+    },
+    {
+      "intent" : "TrackMyOrder"
+    },
+    {
+      "intent": "OrderMeAPizza",
+      "slots": [
+        {
+          "name": "STEPVALUE",
+          "type": "PIZZAVALUES"
+        }
+      ]
+    }
+  ]
+}
+
+
+WhatSMyBalance	account balance
+WhatSMyBalance	balance
+WhatSMyBalance	what s my account balance
+WhatSMyBalance	what s my balance
+WhatSMyBalance	what s my spend limit
+WhatSMyBalance	what's my account balance
+WhatSMyBalance	what's my balance
+WhatSMyBalance	what's my spend limit
+RewardsBalance	points balance
+RewardsBalance	points
+RewardsBalance	rewards
+RewardsBalance	rewards balance
+RewardsBalance	rewards balance
+RewardsBalance	rewards
+RewardsBalance	what s my rewards balance
+RewardsBalance	what's my rewards balance
+PleaseCallMe	call
+PleaseCallMe	call me
+PleaseCallMe	connect me
+PleaseCallMe	contact me
+PleaseCallMe	i need to talk to someone
+PleaseCallMe	i want to talk to an agent
+PleaseCallMe	please call me
+WhichCard	which card am i using
+WhichCard	which card is linked
+WhichCard	which card do i have
+WhenIsMyPaymentDue	due date
+WhenIsMyPaymentDue	payment due date
+WhenIsMyPaymentDue	when is my payment due
+HowMuchMoneyDidISpendThisMonth	how much have i spent in total for {dateperiodslot}
+HowMuchMoneyDidISpendThisMonth	how much money did i spend {dateperiodslot}
+HowMuchMoneyDidISpendThisMonth	what s my total spend {dateperiodslot}
+HowMuchMoneyDidISpendThisMonth	what s my {dateperiodslot} spend
+RecentTransactions What are my recent transactions
+RecentTransactions what are recent five transactions
+RecentTransactions recent transactions
+RecentTransactions last five transactions
+RecentTransactions recent five transactions
+CreditLimit what is my credit limit
+CreditLimit credit limit
+CreditLimit what is my limit
+OrderMeAPizza	get me a pizza
+OrderMeAPizza	i want to order a pizza
+OrderMeAPizza	i want to order a pizza from dominos
+OrderMeAPizza	order me a pizza
+OrderMeAPizza	order me a pizza from dominos
+OrderMeAPizza	order pizza
+OrderMeAPizza	order pizza from dominos
+OrderMeAPizza	put in an order for a pizza
+OrderMeAPizza	put in an order for a pizza from dominos
+OrderMeAPizza	{STEPVALUE}
+RequestUber	i need an uber
+RequestUber	request an uber
+RequestUber	get me a taxi
+TrackMyOrder where's my pizza
+TrackMyOrder where's my order
+TrackMyOrder to check on my pizza
+TrackMyOrder to check on my order
+RequestStatement to send me a statement
+RequestStatement send me a statement
+RequestStatement send me a statement for {stmtmonth}
+RequestStatement send a statement
+RequestStatement mail a statement
+RequestStatement send a statement for {stmtmonth}
+FreezCard freeze my card
+FreezCard turn my card off
+FreezCard lost my card
+UnFreezeCard unfreeze my card
+UnFreezeCard unfreeze card
+whatsmyspendoutlook where do i stand
+whatsmyspendoutlook what is my spend outlook
+whatsmyspendoutlook how am i doing on my budget
+TravelNotify to put a travel notification on the account
+TravelNotify i am traveling out of the country
+TravelNotify put a travel alert
